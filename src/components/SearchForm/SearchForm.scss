@@ -1,0 +1,31 @@
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  width: 720px;
+  margin: 0 auto;
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+  &__input {
+    width: 100%;
+    font-size: 24px;
+    border: none;
+    color: white;
+    background: rgba(255,255,255,0.15);
+  }
+
+  &__button {
+    width: 184px;
+    background: #cc1313;
+
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 64px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 300ms ease;
+    &:hover {
+      background:#222222;
+    }
+  }
+
+}
