@@ -1,9 +1,22 @@
-# React Starter Pack
+# Music fetcher test-task
 
-To use this template click `Use this template`
+- [DEMO-LINK](https://lancaelot.github.io/room4-test-task/)
 
-### Available Scripts
+## Technologies:
+* React
+* Redux
+* Axios
+* JS(ES6)
+* SCSS
+* HTML5
 
-`Deploy` - available to deploy your application to gh-pages
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+## Dependencies
+* Node v12.16.3 and higher
+* NPM v6.14.4 and higher
+
+
+## Installing
+* Fork and clone this repository
+* Run `npm install` in your terminal
+* Run `npm start`
