@@ -1,7 +1,5 @@
 # Music fetcher test-task
 
-- [DEMO-LINK](https://lancaelot.github.io/room4-test-task/)
-
 ## Technologies:
 * React
 * Redux
