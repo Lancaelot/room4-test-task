@@ -31,7 +31,14 @@ export const ArtistCard = () => {
               {artist.summury}
             </div>
           </div>
-          <a href={artist.link} className="artist-card__more">View More</a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href={artist.link}
+            className="artist-card__more"
+          >
+            View More
+          </a>
         </div>
       )
         : (

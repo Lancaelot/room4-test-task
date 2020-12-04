@@ -49,7 +49,12 @@ const TracksList = (props) => {
               {props.type === 'chart' ? track.artist.name : track.artist}
             </button>
           </Link>
-          <a href={track.url} className="chart__link">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href={track.url}
+            className="chart__link"
+          >
             See More
           </a>
         </div>
