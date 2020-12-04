@@ -18,3 +18,6 @@
 * Fork and clone this repository
 * Run `npm install` in your terminal
 * Run `npm start`
+
+# Problems 
+* If you have problem with line breaks just change locally from crtfl to lf
