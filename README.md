@@ -1,9 +1,21 @@
-# React Starter Pack
+# Music fetcher test-task
 
-To use this template click `Use this template`
+## Technologies:
+* React
+* Redux
+* Axios
+* JS(ES6)
+* SCSS
+* HTML5
 
-### Available Scripts
 
-`Deploy` - available to deploy your application to gh-pages
+## Dependencies
+* Node v12.16.3 and higher
+* NPM v6.14.4 and higher
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+
+## Installing
+* Fork and clone this repository
+* Run `npm install` in your terminal
+* Run `git checkout develop`
+* Run `npm start`

@@ -1,8 +1,26 @@
-.nav {
-  display: flex;
-  margin: 20px;
+@import "reset";
+@font-face {
+  font-family: 'Osvald', Roboto sans-serif;
+  src: url("/fonts/osvald.woff");
+}
 
-  * {
-    margin-right: 10px;
+.app {
+  min-height: 100vh;
+  font-family: Osvald;
+  color: white;
+  font-size: 18px;
+  background: url("../src/images/background.jpg");
+  background-size: contain;
+  &__highlight {
+    color: #cc1313
+  }
+
+  &__title {
+    text-transform: uppercase;
+  }
+
+  &__container {
+    max-width: 750px;
+    margin: 0 auto;
   }
 }

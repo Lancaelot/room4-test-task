@@ -1,0 +1,68 @@
+.artist-card {
+  max-width: 550px;
+  margin: 0 auto;
+
+  &__container {
+    display: block;
+    min-height: 350px;
+    padding: 30px;
+    margin:10px auto;
+
+    background: #fff;
+    border-radius: 6px;
+  }
+
+  &__title{
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222222
+  }
+
+  &__message--text {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  card__message--image {
+    display: block;
+    height: 476px;
+    width: 490px;
+    background: url("../../images/missing.jpg");
+  }
+
+  &__listeners {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #cc1313;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    margin-top: 15px;
+    display: block;
+    font-size: 18px;
+    color: #222222;
+  }
+
+  &__more {
+    display: block;
+    border-radius: 6px;
+    background: rgba(243,243,243, 0.9);
+
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    color: #222222;
+    transition: background 300ms ease;
+    &:hover {
+      background: #cc1313;
+      color: #fff;
+    }
+  }
+}
