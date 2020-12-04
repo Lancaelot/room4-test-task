@@ -20,4 +20,4 @@
 * Run `npm start`
 
 # Problems 
-* If you have problem with line breaks just change locally from CRFL to LF (ESlint)
+* If you have problem with line breaks just change locally from CRLF to LF (ESlint)
