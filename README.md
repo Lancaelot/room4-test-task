@@ -20,4 +20,4 @@
 * Run `npm start`
 
 # Problems 
-* If you have problem with line breaks just change locally from crtfl to lf
+* If you have problem with line breaks just change locally from crfl to lf
